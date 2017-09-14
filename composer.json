@@ -1,0 +1,31 @@
+{
+    "name": "simon-wessel/teamcity-api",
+    "description": "TeamCity API wrapper for PHP - usable with or without Laravel 5",
+    "authors": [
+        {
+            "name": "simon-wessel",
+            "email": "mail@simonwessel.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SimonWessel\\TeamCityApi\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "nategood/httpful": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SimonWessel\\TeamCityApi\\ServiceProvider"
+            ],
+            "aliases": {
+                "TeamCityApi": "SimonWessel\\TeamCityApi\\Facade"
+            }
+        }
+    }
+}
