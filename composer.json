@@ -24,7 +24,7 @@
                 "SimonWessel\\TeamCityApi\\ServiceProvider"
             ],
             "aliases": {
-                "TeamCityApi": "SimonWessel\\TeamCityApi\\Facade"
+                "TeamCity": "SimonWessel\\TeamCityApi\\Facade"
             }
         }
     }
